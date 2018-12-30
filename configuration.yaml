@@ -14,7 +14,7 @@ homeassistant:
   customize: !include_dir_merge_named customizations
 
 # Show links to resources in log and frontend
-introduction:
+#introduction:
 
 # Enables the frontend
 frontend:
@@ -26,8 +26,8 @@ config:
 http:
   base_url: !secret http_address
   api_password: !secret http_password
-  ssl_certificate: /ssl/fullchain.pem
-  ssl_key: /ssl/privkey.pem
+  ssl_certificate: !secret ssl_certificate
+  ssl_key: !secret ssl_key
 
 # Checks for available updates
 # Note: This component will send some information about your system to
