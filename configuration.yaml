@@ -1,3 +1,4 @@
+## Updated to v6 for GitPull Testing ##
 homeassistant:
   # Name of the location where Home Assistant is running
   name: !secret ha_name
