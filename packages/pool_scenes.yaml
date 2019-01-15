@@ -49,7 +49,7 @@ script:
 
   ## turn on the light
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
 
   ## wait before initiating the sequence
     - delay:
@@ -57,13 +57,13 @@ script:
 
   ## initiate sequence - pause briefly to cycle
     - service: switch.turn_off
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
   ## 1 - Color Cycle
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
 
 #  ## Set Pool Color Selection to "None"
 #    - service: input_select.select_option
@@ -78,7 +78,7 @@ script:
 
   ## turn on the light
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
 
   ## wait before initiating the sequence
     - delay:
@@ -86,24 +86,24 @@ script:
 
   ## initiate sequence - pause briefly between cycles
     - service: switch.turn_off
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
   ## 1 - Color Cycle
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
     - service: switch.turn_off
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
   ## 2 - Party Mode
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
 
 #  ## Set Pool Color Selection to "None"
 #    - service: input_select.select_option
@@ -118,7 +118,7 @@ script:
 
   ## turn on the light
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
 
   ## wait before initiating the sequence
     - delay:
@@ -126,35 +126,35 @@ script:
 
   ## initiate sequence - pause briefly between cycles
     - service: switch.turn_off
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
   ## 1 - Color Cycle
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
     - service: switch.turn_off
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
   ## 2 - Party Mode
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
     - service: switch.turn_off
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
   ## 3 - Romance
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
 
 #  ## Set Pool Color Selection to "None"
 #    - service: input_select.select_option
@@ -170,7 +170,7 @@ script:
 
   ## turn on the light
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
 
   ## wait before initiating the sequence
     - delay:
@@ -178,46 +178,46 @@ script:
 
   ## initiate sequence - pause briefly between cycles
     - service: switch.turn_off
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
   ## 1 - Color Cycle
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
     - service: switch.turn_off
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
   ## 2 - Party Mode
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
     - service: switch.turn_off
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
   ## 3 - Romance
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
     - service: switch.turn_off
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
   ## 4 - Caribbean
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
 
 #  ## Set Pool Color Selection to "None"
 #    - service: input_select.select_option
@@ -233,7 +233,7 @@ script:
 
   ## turn on the light
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
 
   ## wait before initiating the sequence
     - delay:
@@ -241,57 +241,57 @@ script:
 
   ## initiate sequence - pause briefly between cycles
     - service: switch.turn_off
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
   ## 1 - Color Cycle
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
     - service: switch.turn_off
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
   ## 2 - Party Mode
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
     - service: switch.turn_off
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
   ## 3 - Romance
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
     - service: switch.turn_off
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
   ## 4 - Caribbean
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
     - service: switch.turn_off
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
   ## 5 - Patriotic
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
 
 #  ## Set Pool Color Selection to "None"
 #    - service: input_select.select_option
@@ -307,7 +307,7 @@ script:
 
   ## turn on the light
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
 
   ## wait before initiating the sequence
     - delay:
@@ -315,68 +315,68 @@ script:
 
   ## initiate sequence - pause briefly between cycles
     - service: switch.turn_off
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
   ## 1 - Color Cycle
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
     - service: switch.turn_off
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
   ## 2 - Party Mode
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
     - service: switch.turn_off
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
   ## 3 - Romance
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
     - service: switch.turn_off
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
   ## 4 - Caribbean
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
     - service: switch.turn_off
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
   ## 5 - Patriotic
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
     - service: switch.turn_off
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
   ## 6 - CA Sunset
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
 
 #  ## Set Pool Color Selection to "None"
 #    - service: input_select.select_option
@@ -392,7 +392,7 @@ script:
 
   ## turn on the light
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
 
   ## wait before initiating the sequence
     - delay:
@@ -400,79 +400,79 @@ script:
 
   ## initiate sequence - pause briefly between cycles
     - service: switch.turn_off
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
   ## 1 - Color Cycle
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
     - service: switch.turn_off
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
   ## 2 - Party Mode
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
     - service: switch.turn_off
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
   ## 3 - Romance
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
     - service: switch.turn_off
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
   ## 4 - Caribbean
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
     - service: switch.turn_off
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
   ## 5 - Patriotic
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
     - service: switch.turn_off
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
   ## 6 - CA Sunset
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
     - service: switch.turn_off
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
     - delay:
         seconds: 1
 
   ## 7 - Royal
     - service: switch.turn_on
-      entity_id: zwave.pool_lights
+      entity_id: switch.pool_lights
 
 #  ## Set Pool Color Selection to "None"
 #    - service: input_select.select_option

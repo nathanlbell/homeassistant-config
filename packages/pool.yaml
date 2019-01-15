@@ -19,7 +19,7 @@ homeassistant:
     ################################################
     ## Switch
     ################################################
-    zwave.pool_lights:
+    switch.pool_lights:
       friendly_name: "Pool Light"
       icon: mdi:pool
 
@@ -70,7 +70,7 @@ automation:
     hide_entity: true
     trigger:
       - platform: state
-        entity_id: zwave.pool_lights
+        entity_id: switch.pool_lights
         to: 'off'
         for:
           seconds: 30
