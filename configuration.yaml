@@ -80,6 +80,9 @@ nest:
   client_id: !secret nest_clientid
   client_secret: !secret nest_clientsecret
 
+zwave:
+  usb_path: /dev/ttyACM0
+
 # ios Config
 ios:
 
