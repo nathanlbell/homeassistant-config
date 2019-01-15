@@ -3,6 +3,6 @@
   #####################################################################
   Pool:
     entities:
-      - switch.pool_lights_6
+      - switch.zwave.pool_lights
       - input_select.pool_scene
       - input_select.pool_color
