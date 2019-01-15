@@ -73,8 +73,8 @@ cover:
     password: !secret cover_password
     type: liftmaster
 
-vera:
-  vera_controller_url: http://192.168.1.48:3480/
+#vera:
+#  vera_controller_url: http://192.168.1.48:3480/
 
 nest:
   client_id: !secret nest_clientid
