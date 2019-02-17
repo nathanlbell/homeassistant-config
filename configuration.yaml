@@ -96,8 +96,3 @@ ios:
 group: !include groups.yaml
 #automation: !include automations.yaml
 script: !include scripts.yaml
-
-light:
-  - platform: switch
-    name: Pool Deck String Lights
-    entity_id: switch.PoolDeck_Strip_Lights
