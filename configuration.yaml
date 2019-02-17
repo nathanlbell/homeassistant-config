@@ -82,10 +82,14 @@ nest:
 
 zwave:
   usb_path: /dev/ttyAMA0
+  polling_interval: 6000
+  device_config:
     light.breakfast_room_light:
       refresh_value: true
+      delay: 6
     light.livingroom_light:
       refresh_value: true
+      delay: 6
 
 # ios Config
 ios:
