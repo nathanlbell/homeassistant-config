@@ -82,11 +82,11 @@ nest:
 
 zwave:
   usb_path: /dev/ttyAMA0
-  device_config:
-    light.breakfast_room_light:
+#  device_config:
+#    light.breakfast_room_light:
 #      refresh_value: true
 #      delay: 0
-    light.livingroom_light:
+#    light.livingroom_light:
 #      refresh_value: true
 #      delay: 0
 
