@@ -82,6 +82,10 @@ nest:
 
 zwave:
   usb_path: /dev/ttyAMA0
+    light.breakfast_room_light:
+      refresh_value: true
+    light.livingroom_light:
+      refresh_value: true
 
 # ios Config
 ios:
